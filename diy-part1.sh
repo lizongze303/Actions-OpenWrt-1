@@ -17,3 +17,9 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #git clone https://github.com/MrH723/openwrt-packages.git package/openwrt-packages
 sed -i '$a src-git MrH723 https://github.com/MrH723/openwrt-packages' feeds.conf.default
+
+git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
+
+svn checkout https://github.com/openwrt/packages/trunk/libs/libnetfilter-queue package/libs/libnetfilter-queue
+git clone https://github.com/Zxilly/UA2F package/UA2F
+git clone https://github.com/anomeome/fan_control package/fan_control
